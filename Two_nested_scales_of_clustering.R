@@ -53,7 +53,7 @@ Two_nested_scales_of_clustering=function(entity,minx,miny,maxx,maxy,window,spat_
   abline(h = 1, col = "red", lty = 2,lwd=2)
   lines(r, fit_y, lty = 2, col = "blue",lwd=2)
   text = paste0("Sigma_s:  ", sigma_s, "\n", "Sigma_l:  ", 
-                sigma_l, "\n", "ps:  ", ps, "\n", "pl:  ", pl, "\n", 
+                sigma_l, "\n", "Rou_s:  ", ps, "\n", "Rou_l:  ", pl, "\n", 
                 "scale_s:  ", scale_s, "\n", "scale_l:  ", scale_l, 
                 "\n", "square_R:  ", square_R)
   text(1.1 * mean(r), 0.8 * max(pcf_[, 1]), text, adj = c(0))
